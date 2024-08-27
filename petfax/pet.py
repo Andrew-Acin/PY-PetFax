@@ -13,3 +13,4 @@ def index():
 def show(id):
     pet = pets[id - 1]
     return render_template('pets/show.html', pet=pet)
+
